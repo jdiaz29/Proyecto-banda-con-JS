@@ -3,11 +3,22 @@ body {
   background-color: black;
 }
 
+.inicio{
+  text-decoration: none;
+  background-color: black;
+}
 .cuartomenguante{
   color: antiquewhite;
 text-align: center;
 font-family: 'Saira Condensed', sans-serif;
 font-size: 600%;}
+
+:hover h1 {
+color: rgb(172, 65, 65);
+transition: 1s;
+
+}
+
 .menu{
     display:flex;
   justify-content: space-around;

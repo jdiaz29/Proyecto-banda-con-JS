@@ -2,11 +2,22 @@ body {
   background-color: black;
 }
 
+.inicio {
+  text-decoration: none;
+  background-color: black;
+}
+
 .cuartomenguante {
   color: antiquewhite;
   text-align: center;
   font-family: 'Saira Condensed', sans-serif;
   font-size: 600%;
+}
+
+:hover h1 {
+  color: #ac4141;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .menu {
