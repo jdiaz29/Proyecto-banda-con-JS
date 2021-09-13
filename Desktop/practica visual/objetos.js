@@ -1,5 +1,8 @@
-/*OBJETOS */
-class prendas {
+/*OBJETOS * 
+
+let cantidad = prompt ("ingrese la cantidad de remeras")
+
+class Prendas {
 
     constructor (talle, cantidad,precioxunidad ) {
         this.talle = talle;
@@ -20,12 +23,34 @@ class prendas {
 
  }
 
-const remeras = new prendas ("s", 10, 850);
-const remeras2 = new prendas ("m",5, 850);
-const remeras3 = new prendas ("l" , 8 , 850);
+const remeras = new Prendas ("s", 10, 850);
+const remeras2 = new Prendas ("m",5, 850);
+const remeras3 = new Prendas ("l" , 8 , 850);
+// 
 
 
 
+
+
+
+ /*  ARRAY   */
+
+ const Ropa = ["camperas","buzos"] ;
+
+
+ console.log(Ropa); 
+
+let busqueda = Ropa [1];
+
+console.log({busqueda});
+
+/* metodos */ 
+
+console.log (Ropa.length);
+
+Ropa.push ('musculosa');
+
+console.log (Ropa.length);
 
 
 
