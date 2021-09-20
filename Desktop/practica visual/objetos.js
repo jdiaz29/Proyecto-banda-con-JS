@@ -54,3 +54,7 @@ console.log (Ropa.length);
 
 
 
+for (const lista in Ropa )
+
+{console.log (`${lista}: ${ropa[index].nombre}`);
+}
