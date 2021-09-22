@@ -8,7 +8,7 @@ body {
   background-color: black;
 }
 .cuartomenguante{
-  color: antiquewhite;
+color: antiquewhite;
 text-align: center;
 font-family: 'Saira Condensed', sans-serif;
 font-size: 600%;}
@@ -23,9 +23,11 @@ transition: 1s;
     display:flex;
   justify-content: space-around;
   list-style: none;
+
 }
 .menu_li {
   color: antiquewhite;
+  
 }
 
 .historia {
@@ -37,6 +39,56 @@ transition: 1s;
 
 }
 
+/*TIENDA WEB JS*/
+
+#tiendaweb {
+text-align: center;
+color: white;
+
+}
+
+.articulos{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.remera {
+  
+color: white;
+
+}
+
+#btnMain {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(172, 65, 65);
+  color: white;
+  border-radius: 0.5em;
+}
+
+
+.disco {
+ color: white;
+
+  
+}
+
+#btnMain1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(172, 65, 65);
+  color: white;
+  border-radius: 0.5em;
+}
+.buzo {
+  
+  
+}
+#btnMain2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(172, 65, 65);
+  color: white;
+  border-radius: 0.5em;
+}
 .redes{
   color: white;
 }

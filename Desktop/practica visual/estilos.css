@@ -40,6 +40,51 @@ body {
   display: inline-block;
 }
 
+/*TIENDA WEB JS*/
+#tiendaweb {
+  text-align: center;
+  color: white;
+}
+
+.articulos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px;
+}
+
+.remera {
+  color: white;
+}
+
+#btnMain {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #ac4141;
+  color: white;
+  border-radius: 0.5em;
+}
+
+.disco {
+  color: white;
+}
+
+#btnMain1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #ac4141;
+  color: white;
+  border-radius: 0.5em;
+}
+
+#btnMain2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #ac4141;
+  color: white;
+  border-radius: 0.5em;
+}
+
 .redes {
   color: white;
 }
