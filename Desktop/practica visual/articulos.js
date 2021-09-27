@@ -1,3 +1,19 @@
+const products = [
+    {
+     id: 1,
+     articulo: 'Remera',
+     precio:  850, },
+    {
+    id: 2,
+     articulo: 'Buzo',
+     precio:  2000, 
+    },
+    {
+     id: 3,
+     articulo: 'Disco',
+     precio:  150, 
+    },
+]
 
 
 let boton         = document.getElementById("btnMain");
@@ -18,3 +34,7 @@ boton2.onclick     = () => { alert ("Tiene"+""+(cd)+"de stock restante.");
 }
 
 
+const agregaracarrito = (productos, clase) => {
+    remera 
+    const botonmain = document.querySelector (clase);
+}

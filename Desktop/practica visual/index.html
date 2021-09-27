@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200&display=swap" rel="stylesheet">
 
      <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -63,35 +64,24 @@
   </div>
   </div>
    
-  <section>
-     <h2 id=tiendaweb> TIENDA WEB </h2>
-  
-     <div class="articulos" container >
-<div class="remera">
+  <div class="container">
+    <div class="row">
+     
+        <main id="items" class="col-sm-8 row"></main>
 
-  <img src="cuartomenguante visual estudio/remera 2.jpg" alt="Remera"> <br><br>
-  <button id="btnMain">COMPRAR</button>
-
-</div>
-
-<div class="disco"> <br><br>
+        <aside class="col-sm-4">
+         
+            <h2 id=tiendaweb>Tienda Web</h2>
+          
  
-  <img src="" alt="Disco">
-  <button id="btnMain1">COMPRAR</button>
+            <ul id="carrito" class="list-group"></ul>
+            <hr>
+            <!-- Precio total -->
+            <p class="text-right">Total: <span id="total"></span>$;</p>
+            <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+        </aside>
+    </div>
 </div>
-
-<div class="buzo"> <br><br>
- 
-  <img src="" alt="Buzo">
-  <button id="btnMain2">COMPRAR</button>
-</div>
-
-   </div>
-
-  </section>
-
-
-
     <footer>    
         Redes sociales
         <ul>
@@ -100,12 +90,9 @@
             <li class="redes">Youtube</li>
         </ul>
     </footer>
- 
-    <!--java scrip bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <!--JS propio-->
-   
+    <!--JS-->
     <script src="carrito.js"></script>
+    
 </body>
 </html>
