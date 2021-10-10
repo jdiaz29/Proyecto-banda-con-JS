@@ -1,0 +1,76 @@
+
+body {
+  background-color: black;
+}
+
+.inicio{
+  text-decoration: none;
+  background-color: black;
+}
+.cuartomenguante{
+color: antiquewhite;
+text-align: center;
+font-family: 'Saira Condensed', sans-serif;
+font-size: 600%;}
+
+:hover h1 {
+color: rgb(172, 65, 65);
+transition: 1s;
+
+}
+
+.menu{
+    display:flex;
+  justify-content: space-around;
+  list-style: none;
+
+}
+.menu_li {
+  color: antiquewhite;
+  
+}
+
+.historia {
+  color: black;
+  text-align: center;
+  padding:20px;
+  display:inline-block;
+
+
+}
+
+/*TIENDA WEB JS*/
+
+#tiendaweb {
+text-align: center;
+color: white;
+
+}
+
+.text-right {
+  color:rgb(5, 187, 5);
+}
+
+
+.footer{
+  padding:20px;
+  color: white;
+  font-size: xx-large;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  
+  
+}
+
+.footer_ul-li {
+  
+  justify-content: space-between;
+  list-style: none;
+}
+
+.redes {
+  list-style: none;
+  justify-content: space-between;
+  
+}
