@@ -70,3 +70,26 @@ $("#Total").hide ();
 
 //metodo show cuando se presiona botón comprar, aparece el total y comienza a sumar.
 
+
+
+/*  AJAX  */
+
+
+
+const URLPOST   = "https://jsonplaceholder.typicode.com/posts"
+
+const infoPost =  $("#form");
+
+$("body").append('<button id="btn1">Enviar</button>');
+
+$("#btn1").click(() => { 
+    $.post(URLPOST, infoPost ,(respuesta, estado) => {
+        if(estado === "success"){
+            $("body").append(`<div>
+<p>Solicitud enviada, gracias</p>
+</div>`);
+
+   }  
+    })
+});
+
