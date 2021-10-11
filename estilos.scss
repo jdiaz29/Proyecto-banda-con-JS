@@ -1,6 +1,7 @@
 
 body {
   background-color: black;
+  
 }
 
 .inicio{
@@ -48,14 +49,14 @@ color: white;
 }
 
 .text-right {
-  color:rgb(5, 187, 5);
+  color:rgb(187, 17, 5);
 }
 
 
 .footer{
   padding:20px;
   color: white;
-  font-size: xx-large;
+  font-size: x-large;
   display: flex;
   list-style: none;
   align-items: center;
@@ -72,5 +73,20 @@ color: white;
 .redes {
   list-style: none;
   justify-content: space-between;
-  
+
+}
+
+// formulario de contacto
+
+.form {
+background-color: rgb(187, 17, 5);
+text-align: center;
+}
+#btn1 {
+text-align: center;
+margin-left: 230px;
+font-family: sans-serif;
+background-color: rgb(187, 17, 5);
+color: white;
+border-radius:3em;
 }
