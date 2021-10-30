@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--FUENTES GOOGLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200&display=swap" rel="stylesheet">
+    
+     <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body class="container">
+    <header>
+        <a class="inicio" href="http://127.0.0.1:5500/index.html"><h1 class="cuartomenguante">CUARTOMENGUANTE</h1></a>
+
+        <div>
+            <ul class="menu">
+                <li class="menu_li">Inicio
+                      </li>
+                <li class="menu_li">
+                Temas
+                      </li>
+                      <a href="#tiendaweb"><li class="menu_li">Tienda Web</li></a>
+                <li class="menu_li"> Nosotros
+                        </li>
+            </ul>
+        </div>
+    </header>
+
+
+<div class="container">
+
+     <img src="cuartomenguante visual estudio/Banda.jpg" class="d-block w-100" alt="...">
+       </div>
+
+ <div class= "container, video"
+<p align="center"><iframe src="https://www.youtube.com/embed/XvEpllKpO0Q" width=800 height="600"></iframe></p>
+
+   </div>
+
+<div class="container">
+  <p class="historia card card">
+        CuartoMenguante es una banda de rock alternativo/progesivo, formada por cuatro amigos que fue buscando su estructura a lo largo de los años, hasta llegar a la fase actual.
+        En su repertorio se pueden identificar claras influencias clásicas del Rock Nacional Argentino, combinada con rock internacional.<br>
+        Todas las canciones vienen acompañadas con un matiz personal de los compositores, quienes cuentan en cierto modo una vivencia, un sentimiento, una historia atravesada por ellos mismo y  que en forma abstracta 
+        plasman en la música.
+        A su vez se desarrolan problemáticas globales que puede interpelar a cualquier persona.<br>
+        La banda invita a todo público que aprecie la combinación de sonidos, la originalidad,  el detalle. Que quiera interpretar las letras y sacar sus propias conclusiones.
+    </p>
+  </div>
+
+<div class="container">
+    <div class="row">
+     <main id="items" class="col-sm-8 row"></main>
+         <aside class="col-sm-4">
+            <h2 id=tiendaweb>Tienda Web</h2>
+              <ul id="carrito" class="list-group"></ul>
+               <hr>
+            <!-- Precio total -->
+            <p class="text-right">Total: <span id="total"></span>$;</p>
+            <button id="boton-finalizar" class="btn btn-success">Finalizar</button>
+        </aside>
+    </div>
+
+  
+</div>
+
+    <footer class="footer">  
+      <div>
+       <center> <h3 >Seguinos</h3>
+        <ul class="footer_ul-li">
+          <a class="fb" href="https://www.facebook.com/CuartoMenguanteArg"><li class="redes">Facebook</li></a>
+          <a class="ig"href="https://www.instagram.com/cuartomenguantearg/?hl=es"><li class="redes">Instagram</li></a>
+            <a class="ytb"href="https://www.youtube.com/channel/UCY_7u7zS_gAPXafDETdATCg"><li class="redes">Youtube</li></a>
+        </ul>
+      
+    
+    <form class ="form" >
+     <div>
+      <strong><label> Ingrese su correo para recibir novedades.</label><br>
+      <input id="form" type="email" name="correo" size="40">
+  </div>
+  <input  class="btn btn-success" type="submit" value="Enviar">
+</form>
+
+   
+    </footer>
+    <center><strong><p>Todos los derechos reservados, CuartoMenguante Argentina.</p></strong>
+    <!--JS-->
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="archivos js/carrito.js"></script>
+    <script src= "archivos js/formulario.js"></script>
+</body>
+  </html>
