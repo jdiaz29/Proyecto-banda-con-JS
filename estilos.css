@@ -1,0 +1,142 @@
+body {
+  background-color: black;
+}
+
+.inicio {
+  text-decoration: none;
+  background-color: black;
+}
+
+.cuartomenguante {
+  color: antiquewhite;
+  text-align: center;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 600%;
+}
+
+h1:hover {
+  color: #ac4141;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.menu_li:hover {
+  color: #ac4141;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: x-large;
+  list-style: none;
+}
+
+.menu_li {
+  list-style: none;
+  color: antiquewhite;
+  -webkit-text-decoration: black;
+          text-decoration: black;
+}
+
+a {
+  -webkit-text-decoration: black;
+          text-decoration: black;
+  color: #ac4141;
+}
+
+.video {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.historia {
+  color: wheat;
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+  margin-bottom: 50px;
+  font-size: large;
+  background-color: black;
+}
+
+/*Tienda Web JS*/
+#tiendaweb {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+#remera {
+  display: none;
+}
+
+.text-right {
+  color: #ac4141;
+  font-size: large;
+}
+
+#total {
+  font-size: large;
+}
+
+.footer {
+  padding: 50px;
+  color: white;
+  font-size: x-large;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+.footer_ul-li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px;
+}
+
+.redes {
+  list-style: none;
+  color: white;
+}
+
+.fb :hover {
+  color: #ac4141;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.ig :hover {
+  color: #ac4141;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.ytb :hover {
+  color: #ac4141;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.form {
+  background-color: black 187, 17, 5;
+  text-align: center;
+  padding: 60px;
+}
+/*# sourceMappingURL=estilos.css.map */
