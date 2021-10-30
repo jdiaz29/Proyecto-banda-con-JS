@@ -1,0 +1,124 @@
+
+body {
+  background-color: black;
+  
+}
+
+.inicio{
+  text-decoration: none;
+  background-color: black;
+}
+.cuartomenguante{
+color: antiquewhite;
+text-align: center;
+font-family: 'Saira Condensed', sans-serif;
+font-size: 600%;}
+
+h1:hover {
+color: rgb(172, 65, 65);
+transition: 1s;
+
+}
+
+.menu_li:hover {
+  color: rgb(172, 65, 65);
+transition: 1s;
+}
+.menu{
+    display:flex;
+  justify-content: space-around;
+  font-size: x-large;
+  list-style: none;
+  
+}
+.menu_li {
+   list-style: none;
+  color: antiquewhite;
+  text-decoration:black;
+}
+
+a {
+  text-decoration:black; 
+  color: rgb(172, 65, 65);
+}
+
+.video{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.historia {
+  color:wheat;
+  text-align: center;
+  padding:20px;
+  display:inline-block;
+  margin-bottom: 50px;
+  font-size: large;
+  background-color: black;
+}
+/*Tienda Web JS*/
+
+#tiendaweb {
+text-align: center;
+color: white;
+text-decoration: none;
+}
+#remera{
+  display: none;
+}
+.text-right {
+  color:rgb(172, 65, 65);
+  font-size: large;
+}
+
+#total{
+  font-size: large;
+}
+.footer{
+  padding:50px;
+  color: white;
+  font-size: x-large;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.footer_ul-li {
+  display: flex;
+  justify-content: space-between;
+  padding:30px
+
+}
+
+.redes {
+  list-style: none;
+  color: white;
+}
+
+.fb :hover{
+  color: rgb(172, 65, 65);
+  transition: 1s;
+}
+
+.ig :hover{
+  color: rgb(172, 65, 65);
+  transition: 1s;
+}
+
+.ytb :hover{
+  color: rgb(172, 65, 65);
+  transition: 1s;
+}
+// Formulario de contacto
+
+.form {
+background-color: black
+(187, 17, 5);
+text-align: center;
+padding:60px;
+}
+
+
+
